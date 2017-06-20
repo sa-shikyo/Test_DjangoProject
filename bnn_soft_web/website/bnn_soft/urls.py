@@ -16,11 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from bnn_soft.views import bnn_homepage
-from bnn_soft.views import bnn_company
-from bnn_soft.views import aaaa
-from bnn_soft.views import bbbb
-from bnn_soft.views import cccc
+from views import bnn_homepage
+from views import bnn_company
+from views import aaaa
+from views import bbbb
+from views import cccc
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
